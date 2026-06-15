@@ -1,10 +1,10 @@
 {
-  "name": "puppeteer-pdf",
+  "name": "puppdf",
   "version": "1.0.0",
   "description": "Convert HTML files to PDF using Puppeteer — accurate CSS rendering",
   "type": "module",
   "bin": {
-    "puppeteer-pdf": "./convert.mjs"
+    "puppdf": "./convert.mjs"
   },
   "files": [
     "convert.mjs"

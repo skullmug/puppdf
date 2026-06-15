@@ -5,26 +5,26 @@ Convert HTML files to PDF using Puppeteer. Useful when other tools fail to rende
 ## Install
 
 ```bash
-npm install -g puppeteer-pdf
+npm install -g puppdf
 ```
 
 Or run without installing:
 
 ```bash
-npx puppeteer-pdf input.html output.pdf
+npx puppdf input.html output.pdf
 ```
 
 ## Usage
 
 ```bash
-puppeteer-pdf input.html [output.pdf]
+puppdf input.html [output.pdf]
 ```
 
 The output path is optional — if omitted, the PDF is saved next to the input file with the same name.
 
 ```bash
-puppeteer-pdf report.html           # → report.pdf
-puppeteer-pdf report.html out.pdf   # → out.pdf
+puppdf report.html           # → report.pdf
+puppdf report.html out.pdf   # → out.pdf
 ```
 
 ## Notes

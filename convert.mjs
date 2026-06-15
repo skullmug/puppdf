@@ -5,7 +5,7 @@ import path from "path";
 const [input, output] = process.argv.slice(2);
 
 if (!input) {
-  console.error("Usage: puppeteer-pdf <input.html> [output.pdf]");
+  console.error("Usage: puppdf <input.html> [output.pdf]");
   process.exit(1);
 }
 
