@@ -1,6 +1,6 @@
 # puppdf
 
-Convert HTML files to PDF using Puppeteer. Useful when other tools fail to render CSS accurately.
+Made this to convert HTML files to PDF documents. Other local and web-hosted failed at accurate conversion and produced odd-looking files.
 
 ## Install
 
