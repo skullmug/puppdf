@@ -1,30 +1,11 @@
 # puppdf
 
-Made this to convert HTML files to PDF documents. Other local and web-hosted failed at accurate conversion and produced odd-looking files.
-
-## Install
-
-```bash
-npm install -g puppdf
-```
-
-Or run without installing:
-
-```bash
-npx puppdf input.html output.pdf
-```
+Made this to convert HTML files to PDF documents. Other local and web-hosted failed at accurate conversion and produced odd-looking files. Not yet published as npm package because 2FA must be set up with a physical key, which I don't possess.
 
 ## Usage
 
 ```bash
-puppdf input.html [output.pdf]
-```
-
-The output path is optional — if omitted, the PDF is saved next to the input file with the same name.
-
-```bash
-puppdf report.html           # → report.pdf
-puppdf report.html out.pdf   # → out.pdf
+node convert.mjs input.html output.pdf
 ```
 
 ## Notes
