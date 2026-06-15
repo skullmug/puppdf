@@ -16,4 +16,4 @@ node convert.mjs input.html output.pdf
 
 ## License
 
-MIT
+[MIT](LICENSE)
